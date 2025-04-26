@@ -4,9 +4,9 @@ import config from "./../config.js"
 
 const connection = mysql.createConnection({
     host : config.host,
-    database : config.host,
-    user : config.host,
-    password : config.host,
+    database : config.database,
+    user : config.user,
+    password : config.password,
 });
 
 const getConnection = () => {

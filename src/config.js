@@ -1,6 +1,6 @@
 import {config} from "dotenv"
 
-condig();
+config();
 
 export default {
     host : process.env.HOST,
@@ -8,3 +8,4 @@ export default {
     user : process.env.USER,
     password : process.env.PASSWORD,
 }
+
