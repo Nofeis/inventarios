@@ -7,7 +7,7 @@ import cors from "cors";
 const app = express();
 
 // Setear un puerto a mi web server
-app.set("port", 5000);
+app.set("port", 3000);
 
 // Middleware
 app.use(express.json());
