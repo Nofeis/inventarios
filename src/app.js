@@ -6,7 +6,7 @@ import cors from "cors";
 // Asignamos a app toda funcionalidad para mi server web
 const app = express();
 
-// Setear un puerto a mi web server
+// Setear un puerto a mi web serverr
 app.set("port", 3000);
 
 // Middleware
