@@ -13,5 +13,9 @@ app.set("port", 5000);
 app.use("/api/categorias", categoriasRoutes);
 app.use(cors());
 
+app.get('/',(req, res) => {
+    res.send('Rest api en render without database endpoint')
+})
+
 // Hacemos disponible a mi server app para toda la aplicacion
 export default app;
